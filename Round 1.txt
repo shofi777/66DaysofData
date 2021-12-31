@@ -5,12 +5,10 @@ Day 2 of 66DaysofData:
 Read an article about 6 amateur mistakes in train-test splits, i,e., 1) disorder writing the train-test split code, 2) mistype the size of test set, 3) normalize the test set apart from the train set, 4) shuffle or not-shuffle data when needed, 5) use the ‘stratify’ parameter not in the proportion, 6) not setting the ‘random-state’ parameter.
 Source of article https://towardsdatascience.com/6-amateur-mistakes-ive-made-working-with-train-test-splits-916fabb421bb
 
-
 Day 3 of 66DaysofData: 
 Read an article about some alternatives way to encode categorical variables other than one-hot encoding: 1) Target encoding, 2) Leave-one-out encoding, 3) Bayesian target encoding, 4) Weight of evidence, 5) Nonlinear PCA.
 Source: https://towardsdatascience.com/stop-one-hot-encoding-your-categorical-variables-bbb0fba89809
  
-
 Day 4 of 66DaysofData: 
 <skipped the day>
 
@@ -35,7 +33,6 @@ Day 5 of 66DaysofData:
 Cleaning the code and try conventional CV by by apply 2 models and pre-process (label encoding and normalization)  in a pipeline. Plan to do tomorrow:
 1. Add more models, pre-process (PCA whitening).
 2. Lookup the detail of a competition on kaggle.
-
 
 Day 6 of 66DaysofData: 
 Try on my dataset some conventional regression models: Random Forest, KNN, Decision Tree, SVR, and Multinomial Gaussian NB.
@@ -67,7 +64,6 @@ Watch Ken’s video of Kaggle vs Github:
 1. Kaggle: +Simple reward , +great community, +discoverability, +clear focus on data science, -limited ways to share, -limited in the skills for showcase
 2. Github: +shows you know GIT, +highlights documentation, +illustrate more diverse skillset, +more flexibility, -more difficult to use, -greater time commitment, -additional skills like Git&Markdown
 https://www.youtube.com/watch?v=KfpOuSH9gDc
-
 
 Day 14 of #66daysofData:
 Read an article about ensemble models https://www.toptal.com/machine-learning/ensemble-methods-kaggle-machine-learn?utm_campaign=Toptal%20Engineering%20Blog&utm_medium=email&_hsmi=165044456&_hsenc=p2ANqtz-9apKEpOqOKwf1MXUcrGQbVuv6vYqaQldsD24Gq-yty1AUKniLtVE-Q-Zrk3gtyExapslcaY4pojrsB1MX1XUrS-Q8-WA&utm_content=165044456&utm_source=hs_email
@@ -246,7 +242,7 @@ In this video Ken emphasises to have DS Learning Plan (create a road map) and do
 
 Panda’s Documentation https://pandas.pydata.org/docs/ 
 
-
+=====================================================================================================================================
 ## Conclusion of Round 1
 I spent most of learning by simply watch videos, read articles, join courses and working on my own dataset. 
-Will do more practical learning on the next round.
+Will do more practical learning by join more projects on the next round.
