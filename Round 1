@@ -1,0 +1,252 @@
+Day 1 of 66DaysofData: 
+Finish Intermediate Machine Learning course on Kaggle
+
+Day 2 of 66DaysofData: 
+Read an article about 6 amateur mistakes in train-test splits, i,e., 1) disorder writing the train-test split code, 2) mistype the size of test set, 3) normalize the test set apart from the train set, 4) shuffle or not-shuffle data when needed, 5) use the ‘stratify’ parameter not in the proportion, 6) not setting the ‘random-state’ parameter.
+Source of article https://towardsdatascience.com/6-amateur-mistakes-ive-made-working-with-train-test-splits-916fabb421bb
+
+
+Day 3 of 66DaysofData: 
+Read an article about some alternatives way to encode categorical variables other than one-hot encoding: 1) Target encoding, 2) Leave-one-out encoding, 3) Bayesian target encoding, 4) Weight of evidence, 5) Nonlinear PCA.
+Source: https://towardsdatascience.com/stop-one-hot-encoding-your-categorical-variables-bbb0fba89809
+ 
+
+Day 4 of 66DaysofData: 
+<skipped the day>
+
+=================================================================================
+
+Day 1 of 66DaysofData: 
+Have skipped a day (yesterday). So, I start over today with more motivation to learn/work on data science. The video I watched Ken’s video: 7 Data science mistakes: 1) Too much time spent selecting learning resources, 2) Not getting hands-on enough, 3) Looking for help too early, 4) Giving-up, 5) Creating conditions for burning-out, 6) Not considering fit, 7) Overlooking domain knowledge.
+How to avoid: 1) more focus on behavioral obstacle than the technical one (because in data science tools and context to learn change), 2) Bias towards action (immediately implement what have learnt), 3) Be honest with yourself)
+https://www.youtube.com/watch?v=hOUrxTeBJQc
+
+
+Day 2 of 66DaysofData: 
+Try data cleaning on my dataset. Face problem with data manipulation and reconsider if I should include kurtosis and skewness. Tomorrow I will try to not include kurtosis and skewness and feed the data to some conventional ML. If still have time, I’ll clean up my code too (probably will use PIpelines).
+
+Day 3 of #66DaysofData: 
+Clean my code for extracting data and load it but haven’t maximized the pipeline (only to apply 1 simple model) and the current prediction isn’t satisfying. I try other to ‘cook’ the data. Probably I will find out more about PCA whitening.
+
+Day 4 of 66DaysofData: 
+Tried XGBRegressor. The result is not much different from Random Forest Regressor
+
+Day 5 of 66DaysofData: 
+Cleaning the code and try conventional CV by by apply 2 models and pre-process (label encoding and normalization)  in a pipeline. Plan to do tomorrow:
+1. Add more models, pre-process (PCA whitening).
+2. Lookup the detail of a competition on kaggle.
+
+
+Day 6 of 66DaysofData: 
+Try on my dataset some conventional regression models: Random Forest, KNN, Decision Tree, SVR, and Multinomial Gaussian NB.
+Next on will try with LSTM in addition to  PCA whitening for more pre-processing the data and lookup the detail of a competition on kaggle
+
+Day 7 of #66daysofData:
+Read an article (with no actual learning: 5 Games that can help improve skills as a data science: 1) Command and Conquer (C&C), 2) Data GAmes, 3) Empire of Code, 4) Pattern Matrix, 5) Lumosity Games (https://towardsdatascience.com/5-games-that-can-help-you-improve-your-skills-as-a-data-scientist-7d2d3f2f5a98) 
+
+Day 8 of #66daysofData:
+> Watch a video from Ken about How to Go from Data Analyst to Data Scientist: 1) Show that you can code, 2) Highlight that you can code, 3) Apply data science in your current role, 4) Let your job to pay upskill to you, 5) First look inside your current company, 6) Join communities to network
+> Theoretical learning of PCA Whitening https://learndataa.com/2020/09/15/data-preprocessing-whitening-or-sphering-in-python/
+Next to do: apply to the dataset
+
+Day 9 of #66daysofData:
+Apply PCA whitening from sklearn to my dataset and feed the processed dataset to conventional MLs and LSTM. Unfortunately, the result is not satisfying :(
+
+Day 10 of #66daysofData:
+Statistic learning (the theory) of Random Forest Classification, Decision Tree, SVM, Multinomial Gaussian NB, PCA, and LDA from “StatQuest with Josh Starmer” Youtube Channel.
+
+Day 11 of #66daysofData:
+Read an article about basic statistics for data science
+https://medium.com/mlearning-ai/important-statistical-concepts-for-data-scientists-54e09106b75e
+
+Day 12 of #66daysofData:
+Tryout Seq2Seq LSTM. Got Error Function call stack: keras_scratch_graph. Will continue tomorrow and apply to my own dataset.
+
+Day 13 of #66daysofData:
+Watch Ken’s video of Kaggle vs Github:
+1. Kaggle: +Simple reward , +great community, +discoverability, +clear focus on data science, -limited ways to share, -limited in the skills for showcase
+2. Github: +shows you know GIT, +highlights documentation, +illustrate more diverse skillset, +more flexibility, -more difficult to use, -greater time commitment, -additional skills like Git&Markdown
+https://www.youtube.com/watch?v=KfpOuSH9gDc
+
+
+Day 14 of #66daysofData:
+Read an article about ensemble models https://www.toptal.com/machine-learning/ensemble-methods-kaggle-machine-learn?utm_campaign=Toptal%20Engineering%20Blog&utm_medium=email&_hsmi=165044456&_hsenc=p2ANqtz-9apKEpOqOKwf1MXUcrGQbVuv6vYqaQldsD24Gq-yty1AUKniLtVE-Q-Zrk3gtyExapslcaY4pojrsB1MX1XUrS-Q8-WA&utm_content=165044456&utm_source=hs_email
+
+Day 15 of #66daysofData:
+Continue read the article about the ensemble models and read some papers.
+
+Day 16 of #66daysofData:
+Try Seq2Seq with Luong Attention. Got stuck with the model seems to not train any data.
+
+Day 17 of #66daysofData:
+Watch video about XGBoost theory
+
+Day 18 of #66daysofData:
+Try Seq2Seq with Luong Attention running on google colab
+
+Day 19 of #66daysofData:
+Day 20 #66DaysofData : Join Coursera course on EDA (retrieve data from many sources
+
+Day 21 of #66daysofData: 
+Apply attention layer to my Dataset.
+
+Day 22 of #66daysofData:
+Apply attention layer on in-the-wild dataset
+
+Day 23 of #66daysofData:
+Finished one chapter on EDA Coursera course about retrieving data (from SQL)
+
+Day 24 of #66daysofData:
+Finished EDA chapter on EDA for ML course
+
+Day 25 of #66daysofData:
+FInished week 1 of EDA course on Coursera (Feature engineering and variable transformation)
+
+Day 26 of #66daysofData:
+Week 2 of EDA course on Coursera: Estimation and Inference
+
+Day 27 of #66daysofData:
+Learning on Hypothesis Testing
+
+Day 30 of #66daysofData:
+Finished EDA for Machine Learning course on Coursera
+
+Day 31 of #66daysofData:
+find out how to join the competition and learn the codes form other competitors to get the sense of prediction.
+
+Day 32 of #66daysofData:
+tryout one example code for kaggle competition
+
+Day 33 of #66daysofData:
+Learning some data science lingo and stuff:
+- data ingestion: process of storing data in a place (e.g., database or a data warehouse)
+- ETL stands for Extract, Transform, Load)
+- Orchestration: is automatic coordination and management of systems. Also means automating a series of individual tasks.
+- Orchestration platform, e.g.: Apache Airflow and Kubernetes
+- ML Experiments Toolkits (e.g. for repeating and tracking experiments): MLflow, Kubeflow (reading reference https://servian.dev/the-cheesy-analogy-of-mlflow-and-kubeflow-715a45580fbe)
+- Paralellize hyperparameter tuning, e.g., Google cloud, Azure, AWS
+- Model versioning, e.g., Data Version Control (DVS). Amazon SageMaker, Google Cloud AI Platform (reading reference: https://dvc.org/blog/road-to-hell)
+- Productionize, e.g., Hadoop, Spark, Hive
+To conclude: Real-world ML system including ML code, model deployment, model retraining, maintenance, on-going updates and experiments, auditing, versioning and monitoring (https://medium.com/swlh/productionizing-machine-learning-models-bb7f018f8122). 
+
+Day 34 of #66daysofData:
+Quick read an article about post-training quantization in Tensorflow to optimize the model deployment https://medium.com/tensorflow/introducing-the-model-optimization-toolkit-for-tensorflow-254aca1ba0a3 
+
+Day 35 of #66daysofData:
+Read an article about some work documentation in addition to code https://medium.com/kaggle-blog/i-trained-a-model-what-is-next-d1ba1c560e26 
+
+Day 36 of #66daysofData:
+Read an article of an interview with David Mezzetti https://medium.com/kaggle-blog/when-his-hobbies-went-on-hiatus-this-kaggler-made-fighting-covid-19-with-data-his-mission-a-e306419b99a5
+
+Day 37 of #66daysofData:
+Learn and install mlflow 
+
+Day 38 of #66daysofData:
+Tryout github desktop for code versioning
+
+Day 41 of #66daysofData: Read an article about making GUI in python using DearPyGUI  https://medium.com/geekculture/tutorial-on-gui-with-python-using-dearpygui-0-8-41c25bae3fc9
+
+Day 42 of #66daysofData: 
+EDA on DAiSEE dataset
+
+Day 43 of #66daysofData: 
+- Push EDA on DAiSEE to Github.
+- Learn to improve readability code https://ternaus.blog/tutorial/2020/04/09/Nine-simple-steps-for-better-looking-python-code.html 
+
+Day 44 of #66daysofData: 
+Make a presentation about result of implementation of four LSTM models.
+
+Day 45 of #66daysofData: 
+Read a kaggle competition documentation on Medium for reference https://abhishekjha2468.medium.com/dont-overfit-ii-29c1a1f988a7 
+
+Day 46 of #66daysofData: 
+- Publish code of engagement estimation using CNN https://github.com/shofi777/Engagement-Estimation-CNN.git 
+- Learning how to implement SkyWay 
+
+Day 47 of #66daysofData: 
+Create presentation about LSTM models  
+
+Day 48 of #66daysofData: 
+Watch a video about ML Ops https://www.youtube.com/watch?v=15c7WD-lKUY 
+
+Day 49 of #66daysofData: 
+Watch a video about obstacles DS learning journey: 1) Stuck on multiple coding languages. The more important is to know how to program and you don’t get confused with syntax, 2) avoiding difficult topic, 3) too stick on one learning option. There are many learning options other than formal education. Teaching is also part of learning, 4) not doing internship and research, 5) not join club & groups, 6) not doing enough personal project and documenting.
+https://www.youtube.com/watch?v=hcHSSyHbgMQ  
+
+Day 50 of #66daysofData: 
+1. Coursera course: Finished Week 1 on of Introduction to Machine Learning Engineering for Production (Course 1 of 4).
+•MLOps (Machine Learning Operations) is a set of tools and principles to support progress through the ML project lifecycle (mostly Deployment, Modeling, Data scoping). 
+•Deployment problems: 
+- concept drift (x -> y mapping change), 
+- data drift (x change).
+•Deployment requirement:
+- writing the software to deploy the system production,
+- define what to do to monitor the system performance and maintain.
+Most common that AI systems involves a pipeline of multiple steps. 
+
+2. Join DeepLearning.AI Community
+
+
+Day 51 of #66daysofData: 
+- Tryout WebRTC video conference open source to deployment option
+- Watch 7 minutes video of Week 2 MLOps course  (Modeling overview, and Key challenges)
+
+Day 52 of #66daysofData: 
+Watch 7 minutes video of week 2 MLOps course (establish baseline)
+
+Day 53 of #66daysofData: 
+Read an article about python package for fast data science https://datas-science.medium.com/a-swiss-knife-python-package-for-fast-data-science-4bc3295d830a 
+
+Day 54 of #66daysofData: 
+Watch 2 videos on Week 2 Course 1 MLEP Coursera.
+
+Day 55 of #66daysofData: 
+Finished Week 2 Course 1 MLEP Coursera.
+
+Day 56 of #66daysofData: 
+“Define Data and Establish Baseline” on Week 3 Course 1 MLEP Coursera.
+
+Day 57 of #66daysofData: 
+FInished Course 1 MLEP Coursera.
+
+Day 58 of #66daysofData: 
+Walk through SkyWay (still can’t make it work)
+
+Day 59 of #66daysofData: 
+Learn about Continuous Integration and add configuration files to a repository
+
+Day 60 of #66daysofData: 
+Read ac article about ML System (ML deployment) https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/ 
+
+Day 61 of #66daysofData: 
+Look up to check the reliability of a model with error analysis https://techcommunity.microsoft.com/t5/azure-ai-blog/responsible-machine-learning-with-error-analysis/ba-p/2141774    https://github.com/microsoft/responsible-ai-toolbox 
+
+What should keep track of in ML experiment https://neptune.ai/blog/ml-experiment-tracking : 
+1. Code : preprocessing, training and evaluation scripts, notebooks used for designing features.
+2. Environment : save in ‘requirements.txt’ or ‘conda.yml’.
+3. Data : saving data versions and model
+4. Parameters (including hyperparameters)
+5. Metrics 
+
+Day 62 of #66daysofData: 
+Exploring Neptune.ai
+
+Day 63 of #66daysofData: 
+Exploring MLFlow. Follow tutorial from Isaac Reis https://www.youtube.com/watch?v=7TPHJUW9xFo 
+
+Day 64 of #66daysofData: 
+Day 64 of #66DaysofData: Read an article about feature selection tips https://link.medium.com/16PQCyWtimb
+
+Day 65 of #66DaysofData : Read an article about 3 recommended ML algorithm to first try for regression problem: Linear and Polynomial regression, Neural Networks, Regression trees and Random Forests. https://link.medium.com/iHGdCoiZkmb
+
+Day 66 of #66daysofData: 
+Preparation for second round of #66daysofData 
+Previously Ken recommended to just jump DS project for learning, in this video he has different opinion that such advice might not be the best because it’s like directly jump to the the water before you can really swim. It can cause you stress and I completely agree.
+In this video Ken emphasises to have DS Learning Plan (create a road map) and do more project. https://www.youtube.com/watch?v=xpIFS6jZbe8
+
+Panda’s Documentation https://pandas.pydata.org/docs/ 
+
+
+## Conclusion of Round 1
+I spent most of learning by simply watch videos, read articles, join courses and working on my own dataset. 
+Will do more practical learning on the next round.
